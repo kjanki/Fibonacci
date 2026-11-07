@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci-sorozat</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <h1>Számoljuk ki a Fibonacci-sorozat n-dik elemét több algoritmussal!</h1>
+    <p>Add meg, hogy Fibonacci-sorozat hányadik elemét számoljuk ki?</p>
+    <div class="input">
+        <label for="fibonacciN">n=</label>
+        <input type="number" id="fibonacciN" min="0" max="35" value="10">
+        <button id="szamol" type="button">Számol</button>
+    </div>
+    <div class="eredmeny-kartya">
+        <h2>Algoritmusok összehasonlítása</h2>
+        <p id="eredmeny"></p>
+        <table>
+            <tr>
+                <th>Algoritmus</th>
+                <th>A Fibonacci-szám</th>
+                <th>Lépesek száma</th>
+            </tr>
+            <tr>
+                <td>Rekurzív</td>
+                <td id="rekurzivEredmeny"></td>
+                <td id="rekurzivLepes"></td>
+            </tr>
+            <tr>
+                <td>Iteratív</td>
+                <td id="iterativEredmeny"></td>
+                <td id="iterativLepes"></td>
+            </tr>
+            <tr>
+                <td>Dinamikus</td>
+                <td id="dinamikusEredmeny"></td>
+                <td id="dinamikusLepes"></td>
+            </tr>
+
+        </table>
+    </div>
+
+</body>
+
+</html>

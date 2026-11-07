@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5F2EA;
+    color: #303C34;
+    margin: 30px;
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 0 20px;
+
+}
+
+table {
+    width: 100%;
+    border: 1px solid #A3B899;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+th,
+td {
+    border: 1px solid #A3B899;
+    padding: 12px;
+}
+
+th {
+    background-color: #A3B899;
+}
+
+th:nth-child(2),
+th:nth-child(3),
+td:nth-child(2),
+td:nth-child(3) {
+    text-align: right;
+
+}
+
+button {
+    background-color: #55745E;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3E5946;
+}
+
+#fibonacciN {
+    width: 80px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.eredmeny-kartya {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    color: #55745E;
+    font-size: 20px;
+    text-align: center;
+}
+
+#eredmeny {
+    font-size: 28px;
+    font-weight: bold;
+    color: #55745E;
+    text-align: center;
+    padding: 20px;
+    background-color: #E5EDE1;
+    border-radius: 10px;
+
+}
